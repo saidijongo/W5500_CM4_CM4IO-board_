@@ -1,6 +1,4 @@
 
-  GNU nano 5.4                                                 config.txt *                                                        
-
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
 
