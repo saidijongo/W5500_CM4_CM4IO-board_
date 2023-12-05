@@ -67,7 +67,7 @@ cmdline=cmdline.txt
 include syscfg.txt
 include usercfg.txt
 
-#Added in Nov 30 2023 for the W5500 SPI ethernet protocol for ubuntu 10.4 server
+#Added in Dec 5 2023 for the W5500 SPI ethernet protocol for ubuntu 10.4 server
 dtoverlay=anyspi,spi0-0,dev="w5500",speed=30000000
 dtoverlay=w5500
 
