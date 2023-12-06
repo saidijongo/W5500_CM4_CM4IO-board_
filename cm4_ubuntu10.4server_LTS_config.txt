@@ -47,5 +47,6 @@ dtoverlay=dwc2,dr_mode=host
 dtoverlay=anyspi,spi0-0,dev="w5500",speed=30000000
 dtoverlay=w5500
 
+
 [all]
 
