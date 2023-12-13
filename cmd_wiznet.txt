@@ -1,0 +1,24 @@
+#WIZn
+[WIZnet Ethernet Library GitHub repository](https://github.com/Wiznet/WIZ_Ethernet_Library).
+sudo apt-get install build-essential
+unzip master.zip
+cd WIZ_Ethernet_Library-master
+sudo make clean all install
+sudo reboot
+
+
+#another installation option. (MOSI, MISO, SCLK, CS)
+git clone https://github.com/Wiznet/ioLibrary_Driver.git
+cd ioLibrary_Driver
+make
+sudo make install
+
+#misc commands
+
+lsmod | grep spi
+dmesg | grep spi
+ls /dev/spidev*
+
+
+
+
