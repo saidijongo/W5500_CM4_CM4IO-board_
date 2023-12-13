@@ -7,5 +7,6 @@ https://forums.raspberrypi.com/viewtopic.php?t=323164
 Terminal command:
 sudo nano /boot/firmware/config.txt
 
+Diagram
 ![image](https://github.com/saidijongo/W5500_CM4_CM4IO-board_/assets/31678025/94c14aff-3e3a-409c-a5ac-d9d8fc3f5c5d)
 
