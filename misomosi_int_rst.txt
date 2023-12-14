@@ -50,6 +50,7 @@ otg_mode=1
 #dtoverlay=anyspi0,spi0-0,dev="w5500",speed=30000000
 #dtoverlay=w5500
 
+
 #dtoverlay=spi,cs=5,mosi=10,miso=9,sclk=11,dev="w5500",speed=30000000
 #dtoverlay=w5500
 
@@ -59,6 +60,8 @@ dtoverlay=spi
 # Enable the W5500 module with specific GPIO pins for CS, RSTn, INTn, and speed
 dtoverlay=w5500,cs=5,rst=6,int=25,speed=30000000
 
+#dtoverlay=anyspi,spi0-0,cs=5,rst=6,int=25,dev="w5500",speed=30000000
+#dtoverlay=w5500
 
 [all]
 
