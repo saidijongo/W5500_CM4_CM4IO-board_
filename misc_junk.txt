@@ -1,0 +1,33 @@
+sudo apt install python3-venv
+sudo apt install python3-rpi-ws281x
+sudo apt install python3-adafruit-circuitpython-neopixel
+
+python3 -m venv stripenv
+source myenv/bin/activate
+pip install rpi_ws281x adafruit-circuitpython-neopixel
+
+#pip install --upgrade adafruit-circuitpython-neopixel
+sudo adduser $USER kmem
+sudo chmod 666 /dev/mem
+
+[WIZnet Ethernet Library GitHub repository](https://github.com/Wiznet/WIZ_Ethernet_Library).
+sudo apt-get install build-essential
+unzip master.zip
+cd WIZ_Ethernet_Library-master
+sudo make clean all install
+sudo reboot
+
+
+#another installation option. (MOSI, MISO, SCLK, CS)
+git clone https://github.com/Wiznet/ioLibrary_Driver.git
+cd ioLibrary_Driver
+make
+sudo make install
+
+#misc commands
+
+lsmod | grep spi
+dmesg | grep spi
+ls /dev/spidev*
+
+
