@@ -1,3 +1,4 @@
+*Modified rpi program
 [all]
 kernel=vmlinuz
 cmdline=cmdline.txt
